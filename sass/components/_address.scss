@@ -1,0 +1,17 @@
+.address {
+    width: 255px;
+    height: 81px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    flex-wrap: nowrap;
+}
+
+.address-footer {
+    color: #FFFFFF;}

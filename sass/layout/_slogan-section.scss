@@ -1,0 +1,38 @@
+.slogan-section {
+  width:100%;
+    height: 600px; 
+    
+     background: #2F303A;
+     background-image:linear-gradient(
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)), 
+                      url("../images/advantages-img.jpg");
+                      background-repeat: no-repeat;
+                      background-position: center;
+                      background-size: cover;
+                    
+} 
+
+.company-slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 696px; 
+ padding-left: 452px;
+padding-top: 200px; 
+
+}
+
+.slogan {
+    width: 696px;
+    margin-bottom: 0px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

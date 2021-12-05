@@ -1,0 +1,24 @@
+.mail:hover,
+.mail:focus{
+      color: var(--main-color);
+    cursor: pointer;
+}
+
+.mail-icon{
+   margin-right:10px;
+  fill: #757575;  
+}
+
+.mail-icon:hover,
+.mail-icon:focus{
+      fill: var(--main-color);
+}
+.mail {
+    margin-left: 371px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    transition:color 250ms linear;
+}

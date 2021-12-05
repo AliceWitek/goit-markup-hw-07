@@ -1,0 +1,50 @@
+.our-customers-section{
+  display: flex;
+  margin:0 auto;
+  width:1170px;
+  flex-direction: column;
+ 
+}
+
+.our-customers-text{
+font-size: 36px;
+line-height: 1,17;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-top:102px;
+margin-bottom: 50px;
+flex-direction: column;
+}
+.customer-icon{
+    width: 170px; 
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto; 
+    flex-direction: row;
+    
+  
+  }
+.customer-icon:hover,
+.customer-icon:focus{
+  border-color: var(--main-color);
+  cursor: pointer;
+  
+}
+
+.customer-svg{
+  fill:#AFB1B8;
+   transition-property:var(--main-color);
+  transition-duration: 250ms;
+  
+}
+ .customer-svg:hover,
+ .customer-svg:focus{
+   fill:var(--main-color);
+    cursor: pointer;
+    
+ }

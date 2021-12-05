@@ -1,0 +1,41 @@
+.social-footer{
+    margin-right:77px;
+    margin-bottom:32px;
+  
+    /* padding-left: 70px; */
+     /* margin-right:863px; */
+    
+  display:flex;
+  flex-direction: column;
+}
+
+.social-footer-text{
+  color:#fff;
+  /* margin-top:72px; */
+  margin-bottom:20px; 
+  font-weight: bold;
+  text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em
+}
+.social-icon-footer{
+  background-color: rgba(255, 255, 255, 0.1);
+   transition-property:var(--main-color);
+  transition-duration: 250ms;
+}
+
+
+.instagram-footer,
+.twitter-footer,
+.facebook-footer,
+.linkedin-footer{
+  fill:#fff;
+}
+
+.social-footer-icons{
+  display:flex;
+   width: 206px;
+    height: 44px;
+    justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    transition:color 250ms linear;
+}
+
+.contact-link:hover,
+.contact-link:focus{
+     color: var(--main-color);
+    cursor: pointer;
+}

@@ -1,0 +1,101 @@
+.what-we-do-section {
+    height: 574px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+    display:flex;
+    flex-direction: column;
+     
+  
+}
+
+.what-we-do {
+    
+    height: 386px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+}
+
+.what-we-do-examples{
+ display:flex;
+ justify-content:space-between;
+
+} 
+
+.what-we-do-card{
+  position:relative;
+  height:294px;
+
+}
+
+.what-we-do-text {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin: 0px;
+    flex-direction: column;
+}
+
+.product-type{
+   line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 70px;
+    position:absolute;
+    background: rgba(47, 48, 58, 0.8);
+    linear-gradient:#2F303ACC 80%;
+    padding: 27px;
+
+    
+     bottom: 0;
+    margin: 0;
+    left: 0px;
+    right: 0;
+   
+  
+} 
+
+.product-type-2{
+   line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 70px;
+    position:absolute;
+    background: rgba(47, 48, 58, 0.8);
+    linear-gradient:#2F303ACC 80%;
+    padding: 27px;
+   
+    bottom: 0;
+    margin: 0;
+    left: 30px;
+    right: 0;
+} 
+.product-type-3{
+   line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 70px;
+    position:absolute;
+    background: rgba(47, 48, 58, 0.8);
+    linear-gradient:#2F303ACC 80%;
+    padding: 27px;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    left:30px;
+    
+    
+} 
+
+
+.design, .color-picture {
+    margin-left: 30px;}

@@ -1,0 +1,12 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font), "Raleway";
+  color: var(--main-color);
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=variables.css.map */
