@@ -1,0 +1,21 @@
+.nav__portfolio--active::after{
+    content: "";
+    position:absolute;
+    height: 4px;
+    background: var(--main-color);
+    border-radius: 2px;
+    bottom:0;
+    left: 0; 
+    width:63px;
+    height: 4px;
+    left:99px;
+
+
+}.nav__portfolio--active{
+    text-decoration: none;
+    color: var(--main-color);
+    font-family:var(--secondary-font);
+     font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}

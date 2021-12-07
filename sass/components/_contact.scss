@@ -1,5 +1,5 @@
 
-.contact-link {
+.nav__contact{
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -7,9 +7,8 @@
     text-decoration: none;
     transition:color 250ms linear;
 }
-
-.contact-link:hover,
-.contact-link:focus{
-     color: var(--main-color);
-    cursor: pointer;
+.nav__contact:hover,
+.nav__contact:focus{
+    color: var(--main-color);
+    cursor: pointer; 
 }

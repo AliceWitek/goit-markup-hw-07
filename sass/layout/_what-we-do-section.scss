@@ -1,4 +1,5 @@
-.what-we-do-section {
+
+.what-we-do {
     height: 574px;
     padding-top: 94px;
     padding-bottom: 94px;
@@ -8,7 +9,7 @@
   
 }
 
-.what-we-do {
+.what-we-do__section {
     
     height: 386px;
     display:flex;
@@ -18,19 +19,19 @@
     
 }
 
-.what-we-do-examples{
+.what-we-do__examples{
  display:flex;
  justify-content:space-between;
 
 } 
 
-.what-we-do-card{
+.what-we-do__card{
   position:relative;
   height:294px;
 
 }
 
-.what-we-do-text {
+.what-we-do__text {
     font-weight: bold;
     font-size: 36px;
     letter-spacing: 0.03em;
@@ -50,8 +51,6 @@
     background: rgba(47, 48, 58, 0.8);
     linear-gradient:#2F303ACC 80%;
     padding: 27px;
-
-    
      bottom: 0;
     margin: 0;
     left: 0px;
@@ -71,7 +70,6 @@
     background: rgba(47, 48, 58, 0.8);
     linear-gradient:#2F303ACC 80%;
     padding: 27px;
-   
     bottom: 0;
     margin: 0;
     left: 30px;
@@ -98,4 +96,5 @@
 
 
 .design, .color-picture {
-    margin-left: 30px;}
+    margin-left: 30px;
+}

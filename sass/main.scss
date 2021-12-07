@@ -1,35 +1,46 @@
 @import "./base/common";
-@import './base/backdrop';
+@import "./base/backdrop";
 @import "./base/container";
 @import "./base/customers-icons-container";
 @import "./base/footer-container";
 @import "./base/newsletter-container";
 @import "./base/portfolio-container";
-@import "./components/components";
-@import "./components/page-menu";
-@import "./components/logo-menu";
-@import "./components/agency";
-@import "./components/portfolio";
+@import "./base/header";
+
+
 @import "./components/contact";
 @import "./components/mail";
 @import "./components/tel";
+@import "./components/address";
+@import "./components/agency-active";
+@import "./components/agency";
+@import "./components/portfolio";
+@import "./components/components";
+@import "./components/menu";
+@import "./components/logo-menu";
+@import "./components/logo-footer";
 @import "./components/mail-footer";
 @import "./components/tel-footer";
-@import "./components/logo-footer";
-@import "./components/button-slogan";
-@import "./components/social.scss";
-@import "./components/address";
+@import "./components/social";
 @import "./components/social-footer";
-@import "./layout/nav-page";
-@import "./layout/header";
-@import "./layout/slogan-section.scss";
+
+@import "./layout/slogan-section";
 @import "./layout/advanateges-section";
+@import "./layout/nav-page";
 @import "./layout/what-we-do-section";
 @import "./layout/our-team-section";
 @import "./layout/our-customers-section";
 @import "./layout/footer-section";
-@import "./layout/modal";
 @import "./layout/newsletter";
-@import "./pages/filters-portfolio";
-@import "./pages/projects";
+@import "./layout/modal";
+@import "./layout/modal-inputs";
+@import "./layout/modal-statement";
+
+
+@import "./pages/portfolio-active";
+@import "./pages/portfolio-filters";
+@import "./pages/portfolio-section";
+@import "./pages/portfolio-filters-buttons";
+@import "./pages/portfolio-projects";
+
 @import "./utils/variables.scss";

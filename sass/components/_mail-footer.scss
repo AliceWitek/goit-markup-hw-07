@@ -1,8 +1,9 @@
-.mail-footer:hover,
-.mail-footer:focus{
+
+.mail__footer:hover,
+.mail__footer:focus{
     color: var(--main-color);
     cursor: pointer;
 }
-.mail-footer{color: rgba(255, 255, 255, 0.6);
+.mail__footer{color: rgba(255, 255, 255, 0.6);
     transition:color 250ms linear;
 }

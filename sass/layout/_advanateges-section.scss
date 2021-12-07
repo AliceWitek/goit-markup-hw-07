@@ -1,14 +1,14 @@
-.advantages-section {
+.advantages__section {
     /* height: 195px; */
     padding-top: 94px;
    
 }
-.advantages {
+.advantages__box {
     width: 1170px;
     
 
 }
-.advantages-icon{
+.advantages__icon{
 width: 270px;
 height: 120px;
 background: #F5F4FA;
@@ -18,7 +18,7 @@ align-items: center;
 justify-content: center;
 margin-bottom: 30px;
 }
-.advantages-list {
+.advantages__list {
     list-style: none;
     
     margin: 0px;
@@ -30,7 +30,7 @@ margin-bottom: 30px;
     width: 270px;
 }
 
-.lorem-ipsum-darker {
+.lorem-ipsum--darker {
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 0.03em;
@@ -39,7 +39,7 @@ margin-bottom: 30px;
     margin:0px;
 }
 
-.lorem-ipsum-lighter {
+.lorem-ipsum--lighter {
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 14px;

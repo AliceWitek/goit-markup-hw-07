@@ -1,5 +1,4 @@
-
-.portfolio-link {
+.nav__portfolio {
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
@@ -7,32 +6,9 @@
     text-decoration: none;
     transition:color 250ms linear;
 }
-
-.portfolio-link-active{
-    text-decoration: none;
-    color: var(--main-color);
-    font-family:var(--secondary-font);
-     font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.02em;
-}
-.portfolio-link-active::after{
-  content: "";
-    position:absolute;
-    height: 4px;
-    background: var(--main-color);
-    border-radius: 2px;
-    bottom:0;
-    left: 0; 
-     width:63px;
-  height: 4px;
-  left:99px;
-}
-
-.portfolio-link:active,
-.portfolio-link:hover,
-.portfolio-link:focus {
+.nav__portfolio:active,
+.nav__portfolio:hover,
+.nav__portfolio:focus {
     color: var(--main-color);
     
 }
-

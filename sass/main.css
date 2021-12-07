@@ -1,0 +1,45 @@
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+}
+
+body {
+  font-family: var(--main-font), "Raleway";
+  color: var(--main-color);
+  background-color: #ffffff;
+  font-family: Roboto;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */

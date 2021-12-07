@@ -1,4 +1,4 @@
-.logo-link {
+.logo__link {
     width: 145px;
     height: 31px;
     font-family: Raleway;
@@ -12,12 +12,12 @@
 }
 
 
-.web {
+.logo__web {
     color:var(--main-color);
     
 }
-.logo-link:hover,
-.logo-link:focus{
+.logo__link:hover,
+.logo__link:focus{
     color: var(--main-color);
     cursor: pointer;
 }

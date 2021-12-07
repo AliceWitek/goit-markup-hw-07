@@ -1,4 +1,5 @@
-.our-customers-section{
+
+.our-customers__section{
   display: flex;
   margin:0 auto;
   width:1170px;
@@ -6,7 +7,7 @@
  
 }
 
-.our-customers-text{
+.our-customers__text{
 font-size: 36px;
 line-height: 1,17;
 text-align: center;
@@ -34,6 +35,9 @@ flex-direction: column;
   border-color: var(--main-color);
   cursor: pointer;
   
+}
+.customer-icon:hover > .customer-svg{
+  fill:var(--main-color)
 }
 
 .customer-svg{
