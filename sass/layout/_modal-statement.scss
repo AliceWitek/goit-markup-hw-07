@@ -11,9 +11,8 @@
     letter-spacing: 0.03em;
     color: #757575;
     position: relative;
-}
 
-.statement__text::before {
+    &::before {
     display:inline-block;
     position: relative;
     content: "";
@@ -25,6 +24,9 @@
     left: -3px;
     color:#757575;
 }
+}
+
+
 
 .checkbox:checked + .statement__text::before {
     border: none;

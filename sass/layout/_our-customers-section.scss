@@ -27,28 +27,31 @@ flex-direction: column;
     align-items: center;
     margin:0 auto; 
     flex-direction: row;
-    
+
+    &:hover,
+    &:focus{
+    border-color: var(--main-color);
+    cursor: pointer;
   
+
+   &:hover > .customer-svg{
+   fill:var(--main-color)
   }
-.customer-icon:hover,
-.customer-icon:focus{
-  border-color: var(--main-color);
-  cursor: pointer;
-  
+ }
 }
-.customer-icon:hover > .customer-svg{
-  fill:var(--main-color)
-}
+
 
 .customer-svg{
   fill:#AFB1B8;
    transition-property:var(--main-color);
   transition-duration: 250ms;
-  
-}
- .customer-svg:hover,
- .customer-svg:focus{
+
+  &:hover,
+  &:focus{
    fill:var(--main-color);
     cursor: pointer;
     
  }
+  
+}
+ 

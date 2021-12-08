@@ -6,18 +6,20 @@
     display: flex;
     justify-content: space-between;
     transition:color 250ms linear;
-}
-.mail:hover,
-.mail:focus{
+    
+    &:hover,
+    &:focus{
     color: var(--main-color);
     cursor: pointer;
+  }
 }
+
 .mail-icon{
    margin-right:10px;
   fill: #757575;
-}
-
-.mail-icon:hover,
-.mail-icon:focus{
+  
+  &:hover,
+  &:focus{
    fill: var(--main-color);
+  }
 }

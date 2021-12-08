@@ -21,13 +21,15 @@
     align-content: center;
     margin: 0;
     padding: 0;
-}
 
-.modal__button--close:hover,
-modal__button--close:focus {
+    &:hover,
+    &:focus {
     background-color: #fff;
     box-shadow: none; 
 }
+}
+
+
 
 .close-button-icon {
     fill: #000000;

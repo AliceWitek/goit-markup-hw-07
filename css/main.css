@@ -86,8 +86,7 @@ header {
   transition: color 250ms linear;
 }
 
-.nav__contact:hover,
-.nav__contact:focus {
+.nav__contact:hover, .nav__contact:focus {
   color: var(--main-color);
   cursor: pointer;
 }
@@ -102,8 +101,7 @@ header {
   transition: color 250ms linear;
 }
 
-.mail:hover,
-.mail:focus {
+.mail:hover, .mail:focus {
   color: var(--main-color);
   cursor: pointer;
 }
@@ -113,15 +111,8 @@ header {
   fill: #757575;
 }
 
-.mail-icon:hover,
-.mail-icon:focus {
+.mail-icon:hover, .mail-icon:focus {
   fill: var(--main-color);
-}
-
-.tel:hover,
-.tel:focus {
-  color: var(--main-color);
-  cursor: pointer;
 }
 
 .tel-icon {
@@ -140,6 +131,21 @@ header {
   font-size: 14px;
   color: #757575;
   transition: color 250ms linear;
+}
+
+.tel:hover, .tel:focus {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.tel__footer {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms linear;
+}
+
+.tel__footer:hover, .tel__footer:focus {
+  color: var(--main-color);
+  cursor: pointer;
 }
 
 .address {
@@ -190,8 +196,7 @@ header {
   transition: color 250ms linear;
 }
 
-.nav__agency:hover,
-.nav__agency:focus {
+.nav__agency:hover, .nav__agency:focus {
   color: var(--main-color);
 }
 
@@ -204,9 +209,7 @@ header {
   transition: color 250ms linear;
 }
 
-.nav__portfolio:active,
-.nav__portfolio:hover,
-.nav__portfolio:focus {
+.nav__portfolio:active, .nav__portfolio:hover, .nav__portfolio:focus {
   color: var(--main-color);
 }
 
@@ -252,12 +255,6 @@ ul {
   cursor: pointer;
 }
 
-.logo__footer:hover,
-.logo__footer:focus {
-  color: var(--main-color);
-  cursor: pointer;
-}
-
 .logo__footer {
   font-family: Raleway;
   font-weight: bold;
@@ -269,14 +266,37 @@ ul {
   transition: color 250ms linear;
 }
 
+.logo__footer:hover, .logo__footer:focus {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
 .logo__footer-span {
   color: var(--main-color);
 }
 
-.mail__footer:hover,
-.mail__footer:focus {
+.mail {
+  margin-left: 371px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+  display: flex;
+  justify-content: space-between;
+  transition: color 250ms linear;
+}
+
+.mail:hover, .mail:focus {
   color: var(--main-color);
   cursor: pointer;
+}
+
+.mail-icon {
+  margin-right: 10px;
+  fill: #757575;
+}
+
+.mail-icon:hover, .mail-icon:focus {
+  fill: var(--main-color);
 }
 
 .mail__footer {
@@ -284,15 +304,9 @@ ul {
   transition: color 250ms linear;
 }
 
-.tel__footer:hover,
-.tel__footer:focus {
+.mail__footer:hover, .mail__footer:focus {
   color: var(--main-color);
   cursor: pointer;
-}
-
-.tel__footer {
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms linear;
 }
 
 .social {
@@ -304,8 +318,7 @@ ul {
   justify-content: center;
 }
 
-.social-icon,
-.social-icon-footer {
+.social-icon {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -317,19 +330,19 @@ ul {
   transition-duration: 250ms;
 }
 
-.social-icon:hover,
-.social-icon:focus,
-.social-icon-footer:hover,
-.social-icon-footer:focus {
+.social-icon:hover, .social-icon:focus {
   background-color: var(--main-color);
   cursor: pointer;
   fill: #fff;
 }
 
-.social-icon:hover > .instagram,
-.social-icon:hover > .twitter,
-.social-icon:hover > .facebook,
-.social-icon:hover > .linkedin {
+.social-icon:hover:hover > .instagram,
+.social-icon:hover:hover > .twitter,
+.social-icon:hover:hover > .facebook,
+.social-icon:hover:hover > .linkedin, .social-icon:focus:hover > .instagram,
+.social-icon:focus:hover > .twitter,
+.social-icon:focus:hover > .facebook,
+.social-icon:focus:hover > .linkedin {
   fill: #fff;
 }
 
@@ -375,6 +388,24 @@ ul {
   width: 206px;
   height: 44px;
   justify-content: space-between;
+}
+
+.social-icon-footer {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #fff;
+  transition-property: var(--main-color);
+  transition-duration: 250ms;
+}
+
+.social-icon-footer:hover, .social-icon-footer:focus {
+  background-color: var(--main-color);
+  cursor: pointer;
+  fill: #fff;
 }
 
 .slogan__section {
@@ -660,13 +691,12 @@ nav {
   flex-direction: row;
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
+.customer-icon:hover, .customer-icon:focus {
   border-color: var(--main-color);
   cursor: pointer;
 }
 
-.customer-icon:hover > .customer-svg {
+.customer-icon:hover:hover > .customer-svg, .customer-icon:focus:hover > .customer-svg {
   fill: var(--main-color);
 }
 
@@ -676,8 +706,7 @@ nav {
   transition-duration: 250ms;
 }
 
-.customer-svg:hover,
-.customer-svg:focus {
+.customer-svg:hover, .customer-svg:focus {
   fill: var(--main-color);
   cursor: pointer;
 }
@@ -782,8 +811,7 @@ nav {
   padding: 0;
 }
 
-.modal__button--close:hover,
-modal__button--close:focus {
+.modal__button--close:hover, .modal__button--close:focus {
   background-color: #fff;
   box-shadow: none;
 }
@@ -844,12 +872,6 @@ modal__button--close:focus {
   overflow: hidden;
 }
 
-.input:focus-within,
-.input-2:focus-within {
-  border-color: var(--main-color);
-  color: var(--main-color);
-}
-
 .input {
   width: 100%;
   height: 40px;
@@ -862,15 +884,14 @@ modal__button--close:focus {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input:focus-within,
-.input-2:focus-within {
+.input:focus-within {
   border-color: var(--main-color);
   color: var(--main-color);
 }
 
-.input:focus-within > .icon-person,
-.input:focus-within > .icon-phone,
-.input:focus-within > .icon-email {
+.input:focus-within:focus-within > .icon-person,
+.input:focus-within:focus-within > .icon-phone,
+.input:focus-within:focus-within > .icon-email {
   fill: var(--main-color);
 }
 
@@ -892,6 +913,11 @@ modal__button--close:focus {
   margin-bottom: 10px;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-2:focus-within {
+  border-color: var(--main-color);
+  color: var(--main-color);
 }
 
 .text-area-2 {
@@ -962,6 +988,15 @@ modal__button--close:focus {
   letter-spacing: 0.03em;
 }
 
+.nav__portfolio--active {
+  text-decoration: none;
+  color: var(--main-color);
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
 .nav__portfolio--active::after {
   content: "";
   position: absolute;
@@ -973,15 +1008,6 @@ modal__button--close:focus {
   width: 63px;
   height: 4px;
   left: 99px;
-}
-
-.nav__portfolio--active {
-  text-decoration: none;
-  color: var(--main-color);
-  font-family: var(--secondary-font);
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 0.02em;
 }
 
 .filters {
@@ -1034,14 +1060,45 @@ modal__button--close:focus {
   transition: color 250ms linear;
 }
 
-.button-1:hover,
-.button-1:focus,
+.button-1:hover, .button-1:focus, .button-1:hover, .button-1:focus, .button-1:hover, .button-1:focus, .button-1:hover, .button-1:focus, .button-1:hover, .button-1:focus,
+.button-2:hover,
+.button-2:focus,
+.button-2:hover,
+.button-2:focus,
+.button-2:hover,
+.button-2:focus,
+.button-2:hover,
+.button-2:focus,
 .button-2:hover,
 .button-2:focus,
 .button-3:hover,
 .button-3:focus,
+.button-3:hover,
+.button-3:focus,
+.button-3:hover,
+.button-3:focus,
+.button-3:hover,
+.button-3:focus,
+.button-3:hover,
+.button-3:focus,
 .button-4:hover,
 .button-4:focus,
+.button-4:hover,
+.button-4:focus,
+.button-4:hover,
+.button-4:focus,
+.button-4:hover,
+.button-4:focus,
+.button-4:hover,
+.button-4:focus,
+.button-5:hover,
+.button-5:focus,
+.button-5:hover,
+.button-5:focus,
+.button-5:hover,
+.button-5:focus,
+.button-5:hover,
+.button-5:focus,
 .button-5:hover,
 .button-5:focus {
   background-color: var(--main-color);
@@ -1061,16 +1118,13 @@ modal__button--close:focus {
 .projects__list {
   display: flex;
   flex-wrap: wrap;
-  /* margin-top: -10px; */
   margin-bottom: 64px;
   flex-direction: row;
 }
 
 .projects__list-list {
-  /* margin-top:10px; */
   margin-bottom: 11px;
   margin-right: 11px;
-  /* flex-basis: calc(100% / 3 - 10px); */
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
@@ -1123,12 +1177,10 @@ modal__button--close:focus {
 }
 
 .projects__overlay {
-  /* overflow: hidden; */
   position: absolute;
   width: 100%;
   height: 100%;
   top: 1px;
-  /* left: 0;  */
   background: rgba(33, 150, 243, 0.9);
   color: #fff;
   font-size: 18px;

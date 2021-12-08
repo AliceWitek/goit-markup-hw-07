@@ -5,11 +5,13 @@
     color: #212121;
     text-decoration: none;
     transition:color 250ms linear;
-}
-.nav__agency:hover, 
-.nav__agency:focus {
+
+    &:hover, 
+    &:focus {
     color: var(--main-color);
     
+}
+
 }
 
 

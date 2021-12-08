@@ -5,17 +5,18 @@
     font-size: 14px;
     letter-spacing: 0.02em;
 
-
+      &::after{
+      content: "";
+      position:absolute;
+      height: 4px;
+      background: var(--main-color);
+      border-radius: 2px;
+      bottom:0;
+      left: 0; 
+      width:58px;
+      height: 4px;
+  }
 }
-.nav__agency--active::after{
-     content: "";
-    position:absolute;
-    height: 4px;
-    background: var(--main-color);
-    border-radius: 2px;
-    bottom:0;
-    left: 0; 
-    width:58px;
-    height: 4px;
 
-}
+
+

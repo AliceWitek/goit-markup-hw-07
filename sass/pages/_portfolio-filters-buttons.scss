@@ -20,18 +20,17 @@
   color: #212121;
   padding: 6px 22px;
    transition:color 250ms linear;
-}
 
-.button-1:hover,
-.button-1:focus,
-.button-2:hover,
-.button-2:focus,
-.button-3:hover,
-.button-3:focus,
-.button-4:hover,
-.button-4:focus,
-.button-5:hover,
-.button-5:focus {
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus,
+  &:hover,
+  &:focus {
   background-color: var(--main-color);
   color: #ffffff;
   cursor: pointer;
@@ -41,5 +40,5 @@
   border: none;
   transition-property:var(--main-color);
   transition-duration: 250ms;
-  
+  }
 }

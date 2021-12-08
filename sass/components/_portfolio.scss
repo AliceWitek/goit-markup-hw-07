@@ -5,10 +5,11 @@
     color: #212121;
     text-decoration: none;
     transition:color 250ms linear;
-}
-.nav__portfolio:active,
-.nav__portfolio:hover,
-.nav__portfolio:focus {
+
+    &:active,
+    &:hover,
+    &:focus {
     color: var(--main-color);
     
+  }
 }

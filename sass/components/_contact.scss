@@ -6,9 +6,9 @@
     color: #212121;
     text-decoration: none;
     transition:color 250ms linear;
-}
-.nav__contact:hover,
-.nav__contact:focus{
-    color: var(--main-color);
-    cursor: pointer; 
+      &:hover,
+      &:focus{
+      color: var(--main-color);
+      cursor: pointer; 
+  }
 }

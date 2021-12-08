@@ -33,3 +33,22 @@
     height: 44px;
     justify-content: space-between;
 }
+
+.social-icon-footer{
+ width: 44px;
+ height: 44px;
+ border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ fill:#fff;
+  transition-property:var(--main-color);
+  transition-duration: 250ms;
+
+  &:hover,
+ &:focus{
+    background-color:var(--main-color);
+   cursor:pointer;
+   fill:#fff; 
+ }
+}

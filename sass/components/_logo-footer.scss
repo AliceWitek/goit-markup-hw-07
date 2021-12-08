@@ -1,9 +1,4 @@
-.logo__footer:hover,
-.logo__footer:focus{
-    color: var(--main-color);
-    cursor: pointer;
-    
-}
+
 
 
 .logo__footer {
@@ -15,7 +10,12 @@
     text-decoration: none;
     color: #fff;
      transition:color 250ms linear;
+      &:hover,
+      &:focus{
+      color: var(--main-color);
+      cursor: pointer;
     
+  }
 }
 
 .logo__footer-span {
